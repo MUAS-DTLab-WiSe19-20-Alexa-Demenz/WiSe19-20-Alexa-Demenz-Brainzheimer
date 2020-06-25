@@ -1,0 +1,117 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "gehirn training",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Einstufungstest",
+                    "slots": [],
+                    "samples": [
+                        "einstufungstest",
+                        "einstufungstest wiederholen",
+                        "ich möchte den einstufungstest machen"
+                    ]
+                },
+                {
+                    "name": "Antwort",
+                    "slots": [
+                        {
+                            "name": "n",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "die antwort ist {n}",
+                        "{n}",
+                        "die lösung ist {n}"
+                    ]
+                },
+                {
+                    "name": "Datum",
+                    "slots": [
+                        {
+                            "name": "zeit",
+                            "type": "AMAZON.TIME"
+                        },
+                        {
+                            "name": "tag",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "ich will {tag}  um {zeit} gehirntraining machen ",
+                        "ich möchte am {tag} um {zeit} gehirntraining machen",
+                        "ich möchte am {tag} um {zeit} spielen",
+                        "ich will {tag}  um {zeit} spielen",
+                        "{tag} um {zeit}"
+                    ]
+                },
+                {
+                    "name": "Frage",
+                    "slots": [],
+                    "samples": [
+                        "öffne die nächste Frage ",
+                        "neue Frage bitte",
+                        "gehe zur nächsten Frage",
+                        "nächste Frage"
+                    ]
+                },
+                {
+                    "name": "Dauer",
+                    "slots": [
+                        {
+                            "name": "zeit",
+                            "type": "AMAZON.TIME"
+                        }
+                    ],
+                    "samples": [
+                        "Ich möchte keine Zeit festlegen",
+                        "Ich will {zeit} machen ",
+                        "Ich möchte {zeit} Gehirntraining machen"
+                    ]
+                },
+                {
+                    "name": "Schwierigkeit",
+                    "slots": [],
+                    "samples": [
+                        "welche schwierigkeit",
+                        "was ist der schwierigkeitsgrad",
+                        "was ist mein level"
+                    ]
+                },
+                {
+                    "name": "Auswertung",
+                    "slots": [],
+                    "samples": [
+                        "auswertung bitte",
+                        "was ist meine auswertung",
+                        "meine auswertung ",
+                        "meine statistiken",
+                        "was sind meine statistiken"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
